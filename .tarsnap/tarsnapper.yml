@@ -1,0 +1,17 @@
+deltas: 1h 1d 10d 30d 365d 3650d
+target: $name-$date
+
+jobs:
+  homedir:
+    source: "~/"
+    excludes:
+      - ~/private
+      - ~/Library
+      - ~/Downloads
+      - ~/.Trash
+  chrome-browsing:
+    source: "~/Library/Application Support/Google/Chrome/Default"
+  chrome-critical:
+    source: "~/Library/Application Support/Google/Chrome/Profile 1"
+  1password:
+    source: "~/Library/Group Containers/2BUA8C4S2C.com.agilebits/Library/Application Support/1Password/Backups"
