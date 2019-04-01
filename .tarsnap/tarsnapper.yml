@@ -14,4 +14,4 @@ jobs:
   chrome-critical:
     source: "~/Library/Application Support/Google/Chrome/Profile 1"
   1password:
-    source: "~/Library/Group Containers/2BUA8C4S2C.com.agilebits/Library/Application Support/1Password/Backups"
+    source: "~/Library/Group Containers/2BUA8C4S2C.com.agilebits/Library/Application Support/1Password"
