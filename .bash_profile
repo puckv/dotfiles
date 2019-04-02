@@ -11,6 +11,8 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 alias df="df -H"
 alias du="du -h"
 
+function assume-role() { eval $( $(which assume-role) $@); }
+
 export EDITOR='vi';
 export GREP_OPTIONS='--color=auto';
 export LANG=en
