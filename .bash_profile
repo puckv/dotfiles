@@ -28,3 +28,6 @@ export HOMEBREW_CASK_OPTS=--require-sha
 if [[ -f "$HOME/.bash_profile_private" ]]; then
     source "$HOME/.bash_profile_private"
 fi
+
+gpgconf --reload gpg-agent
+gpgconf --reload scdaemon
