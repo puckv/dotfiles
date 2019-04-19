@@ -9,9 +9,8 @@ jobs:
       - ~/Library
       - ~/Downloads
       - ~/.Trash
-  chrome-browsing:
-    source: "~/Library/Application Support/Google/Chrome/Default"
-  chrome-critical:
-    source: "~/Library/Application Support/Google/Chrome/Profile 1"
+      - ~/Dropbox/Encrypted
+  dropbox-encrypted:
+    source: "/Volumes/DropboxEncrypted"
   1password:
     source: "~/Library/Group Containers/2BUA8C4S2C.com.agilebits/Library/Application Support/1Password"
