@@ -9,7 +9,7 @@ jobs:
       - ~/Library
       - ~/Downloads
       - ~/.Trash
-      - ~/Dropbox/Encrypted
+      - ~/Dropbox/DropboxEncrypted
   dropbox-encrypted:
     source: "/Volumes/DropboxEncrypted"
   1password:
